@@ -54,13 +54,38 @@ body {
   max-width: 42rem;
   background-color: var(--color-background-500);
   border-radius: 0.9rem;
-  /* overflow: scroll; */
-  overflow: hidden;
+  overflow: scroll;
+  overflow-x: hidden;
+  /* overflow: hidden; */
   position: relative;
   display: flex;
   justify-content: center;
 }
 
+/* WebKit (Chrome, Safari, Edge) */
+.box::-webkit-scrollbar {
+  width: 8px; /* Set scrollbar width */
+}
+
+.box::-webkit-scrollbar-track {
+  background: transparent; /* Track background */
+  border-radius: 4px;
+}
+
+.box::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3); /* Scrollbar color */
+  border-radius: 4px;
+}
+
+.box::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.6); /* Hover effect */
+}
+
+/* Firefox */
+.box {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
 /* .loader {
   text-align: center;
   text-transform: uppercase;
@@ -163,8 +188,8 @@ body {
 .list {
   list-style: none;
   padding: 0.8rem 0;
-  /* overflow: scroll; */
-  overflow: hidden;
+  /* overflow: scroll;
+  overflow: hidden; */
 }
 
 .list-watched {
