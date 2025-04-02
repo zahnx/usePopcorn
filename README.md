@@ -12,7 +12,7 @@ This is a basic project from Jonas Schmedtmann's React.js course, with a primary
 
 ## Live Demo
 
-🚧Live Demo Link is still under construction🚧
+[usePopcorn Live Demo Link](https://usepopcorn-zahn.netlify.app/)
 
 ## Installation
 
