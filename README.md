@@ -1,5 +1,7 @@
 # usePopcorn
 
+🚧 Still working on responsiveness
+
 ## Description
 
 This is a basic project from Jonas Schmedtmann's React.js course, with a primary focus on data fetching, useEffect, useRefs, and custom hooks.
